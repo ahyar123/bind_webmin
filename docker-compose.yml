@@ -1,0 +1,27 @@
+version: '1'
+
+services:
+  bind9:
+    container_name: bind9
+    image: internetsystemsconsortium/bind9:9.18
+    ports:
+      - "53:53/tcp"
+      - "53:53/udp"
+      - "127.0.0.1:953:953/tcp"
+    volumes:
+      - ./config/named.conf.options:/etc/bind/named.conf.options
+      - ./config/named.conf.local:/etc/bind/named.conf.local
+      - ./config/db.poliupg.ac.id:/etc/bind/db.poliupg.ac.id
+    restart: unless-stopped
+
+  webmin:
+    container_name: webmin
+    image: trucv/webmin:latest
+    init: true
+    restart: always
+    ports:
+      - 10000:10000
+    links:
+      - 'bind9'
+    depends_on:
+      - bind9

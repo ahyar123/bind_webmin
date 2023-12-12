@@ -1,0 +1,97 @@
+$TTL	86400
+@	IN	SOA	ns1.poliupg.ac.id. master.poliupg.ac.id. (
+		     2023052601		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			  86400 )	; Negative Cache TTL
+;
+	IN	NS	ns1.poliupg.ac.id.
+	IN	NS	ns2.poliupg.ac.id.
+	IN	MX	1	ASPMX.L.GOOGLE.COM.
+	IN	MX	5	ALT1.ASPMX.L.GOOGLE.COM.
+	IN	MX	5	ALT2.ASPMX.L.GOOGLE.COM.
+	IN	MX	10	ALT3.ASPMX.L.GOOGLE.COM.
+	IN	MX	10	ALT4.ASPMX.L.GOOGLE.COM.
+		
+
+ns1		IN	A	118.98.121.209
+ns2		IN	A	118.98.121.210
+
+@		IN	A	118.98.121.199
+www		IN	A	118.98.121.199
+elearning	IN	A	118.98.121.243
+simponi		IN	A	118.98.121.236
+simak		IN	A	118.98.121.212
+repository	IN	A	118.98.121.218
+digilib		IN	A	118.98.121.244
+rkt		IN	A	118.98.121.244
+jurnal		IN	A	118.98.121.208
+dikti		IN	A	118.98.121.213
+inlislite	IN	A	118.98.121.207
+hi		IN	A	118.98.121.198
+sister		IN	A	118.98.121.233
+pmb		IN	A	118.98.121.226
+cas		IN	A	118.98.121.216
+akses		IN	A	118.98.121.216
+
+; unit
+p3mp		IN	A	118.98.121.206
+lap		IN	A	118.98.121.206
+emssrg		IN	A	118.98.121.206
+cpanelunit	IN	A	118.98.121.206
+uppm		IN	A	118.98.121.206
+ppid		IN	A	118.98.121.206
+itcentre	IN	A	118.98.121.206
+sinkrepo	IN	A	118.98.121.206
+conferences	IN	A	103.150.191.106
+plp		IN	A	118.98.121.206
+tuk		IN	A	118.98.121.206
+p4m		IN	A	118.98.121.206
+sk		IN	A	118.98.121.206
+sdm		IN	A	118.98.121.206
+meets		IN	A	118.98.121.206
+koperasi	IN	A	118.98.121.206
+ccts		IN	A	118.98.121.206
+bauk		IN	A	118.98.121.206
+lsp1		IN	A	103.77.207.153
+
+; jurusan
+ak		IN	A	118.98.121.204
+an		IN	A	118.98.121.204
+cpaneljurusan	IN	A	118.98.121.204
+d3telkom	IN	A	118.98.121.204
+d4listrik	IN	A	118.98.121.204
+d4pbg		IN	A	118.98.121.204
+d4trjt		IN	A	118.98.121.204
+kimia		IN	A	118.98.121.204
+mesin		IN	A	118.98.121.204
+sipil		IN	A	118.98.121.204
+te		IN	A	118.98.121.204
+tmj		IN	A	118.98.121.204
+tkj		IN	A	103.150.191.106
+;lsp1		IN	A	103.77.207.153
+
+ukmbahasa       IN      A	118.98.121.203	
+hme		IN      A	118.98.121.203
+hmtk		IN      A	118.98.121.203
+hmjukm		IN	A	118.98.121.203
+ukmsepakbola	IN	A	118.98.121.203
+hma		IN	A	118.98.121.203
+hmm		IN	A	118.98.121.203
+bem		IN	A	118.98.121.203
+ukmwirausaha	IN	A	118.98.121.203
+kamupi		IN	A	118.98.121.203
+bagren		IN	A	118.98.121.239
+imcas		IN	A	118.98.121.214
+snp2m		IN	A	118.98.121.214
+imcas-es	IN	A	118.98.121.214
+imcas-ss	IN	A	118.98.121.214
+wisuda		IN	A	118.98.121.214
+skpkontrak	IN	A	118.98.121.214
+library		IN	A	118.98.121.211
+
+noc		IN	A	118.98.121.202
+
+layananinformasi	IN	A	118.98.121.134
+backuprpl	IN	A	118.98.121.136
